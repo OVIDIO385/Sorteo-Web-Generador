@@ -7,7 +7,7 @@ def header() -> rx.Component:
             rx.el.div(
                 rx.icon("gift", class_name="w-8 h-8 text-white mr-3"),
                 rx.el.h1(
-                    "RaffleMaster",
+                    "Sorteos Fondecom",
                     class_name="text-2xl md:text-3xl font-extrabold text-white tracking-tight",
                 ),
                 class_name="flex items-center justify-center md:justify-start",
