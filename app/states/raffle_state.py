@@ -14,7 +14,7 @@ class Participant(TypedDict):
 
 
 class RaffleState(rx.State):
-    raffle_name: str = "Sorteo Genial"
+    raffle_name: str = "Escribe el nombre del sorteo aquí"
     participants: list[Participant] = []
     new_participant_name: str = ""
     new_participant_contact: str = ""
